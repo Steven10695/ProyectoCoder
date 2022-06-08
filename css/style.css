@@ -1,0 +1,228 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family: 'Poppins', sans-serif;
+}
+
+
+.contenedor {
+     width: 90%;
+     max-width: 1280px;
+     margin: auto;
+}
+
+.contenedor2 {
+     width: 90%;
+     max-width: 1280px;
+     margin: auto;
+}
+ 
+/* HEADER */ 
+.menu{
+     background: transparent;
+     padding: 20px 20px;
+}
+
+.menu .contenedor{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.menu2{
+     background: transparent;
+     padding: 20px 20px;
+}
+
+.menu2 .contenedor2{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+ 
+header .logo{
+     color: #ffffff;
+     font-size: 23px;
+     font-weight: bold;
+}
+
+header .logo2{
+     color: #000;
+     font-size: 23px;
+     font-weight: bold;
+}
+
+nav ul li{
+     display: inline-block;
+     margin: 0 20px;
+}
+
+.contenedor2 nav ul li{
+     display: inline-block;
+     margin: 0 20px;
+}
+
+nav ul li a{
+     text-decoration: none;
+     color: #ffffff;
+}
+
+.contenedor2 nav ul li a{
+     text-decoration: none;
+     color: #000;
+}
+
+/* BANNER */
+
+.banner{
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 60vh;
+}
+
+.bg-video{
+     margin-top: -8vh;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: -1;
+     width: 100vw;
+     height: 80vh;
+     object-fit: cover;
+}
+
+.contenido h1{
+     font-size: 42px;
+     color: #ffffff;
+     text-align: center;
+}
+
+.contenido span{
+     color: #6ABF4B;
+}
+
+/* SECTION 1*/
+
+.intro{
+     display: flex;
+}
+
+.izquierda{
+     width: 50%;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+}
+
+.derecha{
+     width: 50%;
+}
+
+/* SECTION 1  HOME PAGE*/
+
+.seccion-1{
+     padding-top: 150px;
+}
+
+.seccion-1 .contenedor{
+     display: flex;
+     justify-content: center;
+     max-width: 1100px;
+     padding-bottom: 40px;
+     background-color: transparent;
+     background-image: linear-gradient(280deg, #6CBFE9 4%, #238DC1 56%);
+     border-radius: 40px;
+     padding: 60px 0px 60px 0px;
+
+}
+
+.seccion-1 .titular{
+     width: 40%;
+     margin-left: 50px;
+     padding-top: 5%;
+}
+
+.titular p{
+     color: #DBDBDB;
+     margin-top: 0;
+     margin-bottom: 0.9rem;
+     font-size: 18px;
+}
+
+.titular h2{
+     color: #F9FAFB;
+     font-size: 30px;
+     font-weight: 600;
+     margin-bottom: 20px;
+}
+
+.titular .parrafo-1{
+     color: #DBDBDB;
+     font-size: 16px;
+     font-weight: 400;
+}
+
+.titular button{
+     background-color: #6ABF4B;
+     padding: 12px 20px 12px 20px;
+     color: #ffffff;
+     border-radius: 10px 10px 10px 10px;
+     border: none;
+     margin-top: 15px;
+}
+
+.seccion-1 .imagen{
+     width: 49%;
+}
+
+.seccion-1 .imagen img {
+     width: 100%;
+   }
+
+/** SECCION 2 - HOMEPAGE **/
+
+.seccion-2{
+     padding-top: 150px;
+}
+
+.titular-2 h2{
+     font-size: 38px;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+.etiquetas{
+     display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+.etiqueta-1,
+.etiqueta-2{
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.etiqueta{
+     width: 30%;
+     margin: auto;
+}
+
+.etiqueta ul{
+     display: flex;
+     padding: 0%;
+}
+
+.etiqueta li{
+     list-style: none;
+}
+
+.etiqueta li:nth-child(2) {
+     margin-left: 20px;
+     color: #666;
+     font-size: 14px;
+     line-height: 30px;
+   }
+
