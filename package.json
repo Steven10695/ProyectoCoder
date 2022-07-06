@@ -1,0 +1,22 @@
+{
+  "name": "atmosferasdigital",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compilar:sass": "sass --watch src/scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Steven10695/ProyectoCoder.git"
+  },
+  "author": "Steven Palma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Steven10695/ProyectoCoder/issues"
+  },
+  "homepage": "https://github.com/Steven10695/ProyectoCoder#readme",
+  "devDependencies": {
+    "sass": "^1.53.0"
+  }
+}
